@@ -14,10 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
+});
+
+Route::get('/mon-post', function () {
+
+    $post = Voyager::model('Post')->find(1);
+    return view('mavue', ['post' => $post]);
 });
