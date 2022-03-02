@@ -14,8 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home')->name('home');
 });
+
+Route::get('/about-us', function () {
+    return view('aboutus')->name('aboutus');
+});
+
+Route::get('/team', function () {
+    return view('team')->name('team');
+});
+
+Route::get('/mediums-hat', function () {
+    return view('mediums-hat')->name('mediums-hat');
+});
+
+Route::get('/contact', function () {
+    return view('contact')->name('contact');
+});
+
 
 
 Route::group(['prefix' => 'admin'], function () {
