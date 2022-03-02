@@ -14,33 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home')->name('home');
-});
+    return view('home');
+})->name('home');
 
 Route::get('/about-us', function () {
-    return view('aboutus')->name('aboutus');
-});
+    return view('aboutus');
+})->name('aboutus');
 
 Route::get('/team', function () {
-    return view('team')->name('team');
-});
+    return view('team');
+})->name('team');
 
 Route::get('/mediums-hat', function () {
-    return view('mediums-hat')->name('mediums-hat');
-});
+    return view('mediums-hat');
+})->name('mediums-hat');
 
 Route::get('/contact', function () {
-    return view('contact')->name('contact');
-});
-
-
+    return view('contact');
+})->name('contact');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
-});
-
-Route::get('/mon-post', function () {
-
-    $post = Voyager::model('Post')->find(1);
-    return view('mavue', ['post' => $post]);
 });
