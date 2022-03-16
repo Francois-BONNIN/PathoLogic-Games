@@ -1,0 +1,30 @@
+.heroText{
+    @apply self-center
+}
+
+.heroMenu {
+    @apply gap-4
+}
+
+.heroMenu > div{
+    @apply ease-in duration-700
+}
+
+.heroMenu > div > img{
+    @apply h-full w-full
+    object-cover
+    rounded-3xl
+    border-4 border-white
+}
+
+/*Tablette*/
+@media (min-width: 43rem) {
+
+}
+
+/*Desktop*/
+@media (min-width: 62rem){
+    .hero{
+        @apply h-[90vh]
+    }
+}
