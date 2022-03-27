@@ -11,7 +11,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="bg-night-blue">
+<body class="bg-night-blue container mx-auto">
     @include('partials.nav')
 
     @yield('content')
