@@ -3,28 +3,38 @@
 }
 
 .heroText{
-    @apply shrink-[2] self-center flex flex-col gap-4;
+    @apply shrink-[2] self-center flex flex-col gap-4 p-3;
 }
 
 .heroMenu {
     @apply w-full h-full gap-6 items-center;
 
     .hero-items-Menu{
-        @apply bg-no-repeat bg-center bg-cover
+        @apply ease-in-out duration-700 bg-no-repeat bg-center bg-cover
         backdrop-brightness-200
         mx-8
         w-full h-full
-        ease-in duration-700
         rounded-md border-4 border-white;
 
+        &:hover{
+            .filterShadow{
+                @apply opacity-80
+            }
+        }
+
         .hero-items{
-            @apply flex content-start items-center gap-8 pl-24;
+            @apply ease-in-out duration-700 flex content-start items-center gap-6 pl-32;
+
+            h3{
+                @apply ease-in-out duration-700;
+            }
+
             img{
                 @apply h-32 my-8
             }
 
             h3{
-                @apply text-4xl
+                @apply text-4xl uppercase
             }
 
             p, a {
@@ -37,28 +47,39 @@
 .filterShadow{
     z-index: -1;
     @apply absolute w-full h-full
-    bg-night-blue opacity-75
+    bg-night-blue opacity-50
     rounded-md;
 }
 
 /*Tablette*/
 @media (min-width: 43rem) {
     .hero {
+        
         .hero-items-Menu {
             @apply m-0
-            w-full h-5/6;
+            w-full h-4/6;
+
+            &:hover{
+                @apply h-5/6;
+            }
 
             .hero-items{
-                @apply h-full flex-col justify-center p-0
-                ease-in duration-500;
+                @apply h-full flex-col justify-center p-0;
                 img {
-                    @apply w-1/2;
+                    @apply w-1/2 my-0;
                 }
 
                 &:hover{
                     a, p {
-                        display: block;
+                        display: inline-flex;
+                    }
 
+                    p{
+                        text-align: center;
+                    }
+
+                    .filterShadow{
+                        @apply opacity-80;
                     }
                 }
             }

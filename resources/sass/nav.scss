@@ -1,7 +1,7 @@
 nav{
     @apply items-center justify-between;
     > img{
-         @apply h-full;
+         @apply h-5/6;
     }
     .menu a {
         @apply rounded-sm;
@@ -9,5 +9,5 @@ nav{
 }
 
 .active{
-    @apply border-b-4 border-b-red
+    @apply border-b-4 border-b-red text-white font-bold
 }
