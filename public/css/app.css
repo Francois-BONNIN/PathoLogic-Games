@@ -1493,12 +1493,29 @@ nav .menu a {
   height: 260px;
   width: 280px;
 }
+.hexagons-container .hexa-main .little-hexagon {
+  position: absolute;
+  z-index: 4;
+  transform: translate(380%, 140%);
+  height: 30px;
+  width: 35px;
+}
+
+.hexa-dev-text {
+  font-size: 12px;
+}
+
+.hexa-name-too-big {
+  transform: scale(0.9);
+}
+
 @media (min-width: 768px) {
 
   .md\:flex-row {
     flex-direction: row;
   }
 }
+
 @media (min-width: 1024px) {
 
   .lg\:flex-row {

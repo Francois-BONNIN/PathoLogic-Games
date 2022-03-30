@@ -130,6 +130,21 @@
             height: 260px;
             width: 280px;
         }
-    }
 
+        .little-hexagon {
+            position: absolute;
+            z-index: 4;
+            transform: translate(380%, 140%);
+            height: 30px;
+            width: 35px;
+        }
+    }
+}
+
+.hexa-dev-text {
+    font-size: 12px;
+}
+
+.hexa-name-too-big {
+    transform: scale(0.9);
 }

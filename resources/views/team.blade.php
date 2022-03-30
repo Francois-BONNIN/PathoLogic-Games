@@ -6,145 +6,15 @@
 
         <div class="hexagon-big-container">
             <div class="hexagons-container hexa-first-container">
-                <div class="hexa-main">
-                    <div class="hexagon-border hexa-border-main">
-                        <div class="hexagon">
-                            <img
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XBvPPuISpjoCt8tqFFveWhVN_TlHNTUKUQ&usqp=CAU"
-                                height="250"
-                                width="270"
-                            />
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-name hexa-border-child">
-                        <div class="hexagon hexa-text">
-                            <p>ALEXIS</p>
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-filiere hexa-border-child">
-                        <div class="hexagon hexa-text hexa-two-lines-text">
-                            <p>CRÉATEUR</p>
-                            <p>DU STUDIO</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hexa-main hexa-middle">
-                    <div class="hexagon-border hexa-border-main">
-                        <div class="hexagon">
-                            <img
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XBvPPuISpjoCt8tqFFveWhVN_TlHNTUKUQ&usqp=CAU"
-                                height="250"
-                                width="270"
-                            />
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-name hexa-border-child">
-                        <div class="hexagon hexa-text">
-                            <p>ALEXIS</p>
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-filiere hexa-border-child">
-                        <div class="hexagon hexa-text hexa-two-lines-text">
-                            <p>CRÉATEUR</p>
-                            <p>DU STUDIO</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hexa-main hexa-last">
-                    <div class="hexagon-border hexa-border-main">
-                        <div class="hexagon">
-                            <img
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XBvPPuISpjoCt8tqFFveWhVN_TlHNTUKUQ&usqp=CAU"
-                                height="250"
-                                width="270"
-                            />
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-name hexa-border-child">
-                        <div class="hexagon hexa-text">
-                            <p>ALEXIS</p>
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-filiere hexa-border-child">
-                        <div class="hexagon hexa-text hexa-two-lines-text">
-                            <p>CRÉATEUR</p>
-                            <p>DU STUDIO</p>
-                        </div>
-                    </div>
-                </div>
+                @include('components.team-members.alexis')
+                @include('components.team-members.sylvain')
+                @include('components.team-members.ambre')
             </div>
 
             <div class="hexagons-container hexa-second-container">
-                <div class="hexa-main">
-                    <div class="hexagon-border hexa-border-main">
-                        <div class="hexagon">
-                            <img
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XBvPPuISpjoCt8tqFFveWhVN_TlHNTUKUQ&usqp=CAU"
-                                height="250"
-                                width="270"
-                            />
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-name hexa-border-child">
-                        <div class="hexagon hexa-text">
-                            <p>ALEXIS</p>
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-filiere hexa-border-child">
-                        <div class="hexagon hexa-text hexa-two-lines-text">
-                            <p>CRÉATEUR</p>
-                            <p>DU STUDIO</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hexa-main hexa-middle">
-                    <div class="hexagon-border hexa-border-main">
-                        <div class="hexagon">
-                            <img
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XBvPPuISpjoCt8tqFFveWhVN_TlHNTUKUQ&usqp=CAU"
-                                height="250"
-                                width="270"
-                            />
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-name hexa-border-child">
-                        <div class="hexagon hexa-text">
-                            <p>ALEXIS</p>
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-filiere hexa-border-child">
-                        <div class="hexagon hexa-text hexa-two-lines-text">
-                            <p>CRÉATEUR</p>
-                            <p>DU STUDIO</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hexa-main hexa-last">
-                    <div class="hexagon-border hexa-border-main">
-                        <div class="hexagon">
-                            <img
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XBvPPuISpjoCt8tqFFveWhVN_TlHNTUKUQ&usqp=CAU"
-                                height="250"
-                                width="270"
-                            />
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-name hexa-border-child">
-                        <div class="hexagon hexa-text">
-                            <p>ALEXIS</p>
-                        </div>
-                    </div>
-                    <div class="hexagon-border hexa-border-filiere hexa-border-child">
-                        <div class="hexagon hexa-text hexa-two-lines-text">
-                            <p>CRÉATEUR</p>
-                            <p>DU STUDIO</p>
-                        </div>
-                    </div>
-                </div>
+                @include('components.team-members.francois')
+                @include('components.team-members.alfie')
+                @include('components.team-members.marvin')
             </div>
         </div>
 
