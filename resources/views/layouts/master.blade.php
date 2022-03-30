@@ -12,10 +12,10 @@
     <title>Document</title>
 </head>
 <body class="bg-night-blue container mx-auto">
-    @include('partials.nav')
+    @include('components.nav')
 
     @yield('content')
 
-    @include('partials.footer')
+    @include('components.footer')
 </body>
 </html>
