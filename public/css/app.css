@@ -1191,6 +1191,9 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+.mt-4 {
+  margin-top: 1rem;
+}
 .flex {
   display: flex;
 }
@@ -1380,6 +1383,115 @@ nav .menu a {
   .hero {
     height: 90vh;
   }
+}
+.hexa-title {
+  margin-top: 1em;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.hexagon-big-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.hexagon-big-container .hexa-first-container {
+  transform: translateY(14%);
+}
+.hexagon-big-container .hexa-second-container {
+  transform: translateX(-25%);
+}
+
+@media screen and (max-width: 1200px) {
+  .hexagon-big-container {
+    flex-wrap: wrap;
+  }
+  .hexagon-big-container .hexa-second-container {
+    transform: translateY(20%);
+  }
+}
+@media screen and (max-width: 1200px) and (max-width: 640px) {
+  .hexagon-big-container .hexa-first-container {
+    transform: scale(0.6);
+  }
+  .hexagon-big-container .hexa-second-container {
+    transform: scale(0.6) translateY(-50%);
+  }
+}
+.hexagons-container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.hexagons-container .hexa-middle {
+  transform: translate(37%, -25%);
+}
+.hexagons-container .hexa-last {
+  transform: translate(-0.8%, -10%);
+}
+.hexagons-container .hexa-main {
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.hexagons-container .hexa-main .hexagon-border {
+  -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-color: #8AEA92;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+.hexagons-container .hexa-main .hexagon-border .hexagon {
+  -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 95%;
+  height: 95%;
+}
+.hexagons-container .hexa-main .hexagon-border .hexa-text {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hexagons-container .hexa-main .hexagon-border .hexa-text p {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.hexagons-container .hexa-main .hexagon-border .hexa-two-lines-text {
+  display: flex;
+  flex-direction: column;
+}
+.hexagons-container .hexa-main .hexa-border-name {
+  z-index: 1;
+  transform: translate(-32%, 30%);
+}
+.hexagons-container .hexa-main .hexa-border-name .hexa-text p {
+  font-size: 1.5em;
+}
+.hexagons-container .hexa-main .hexa-border-filiere {
+  transform: translate(-295%, 160%);
+}
+.hexagons-container .hexa-main .hexa-border-filiere .hexa-text p {
+  margin: 0;
+  font-size: 1em;
+}
+.hexagons-container .hexa-main .hexa-border-child {
+  height: 120px;
+  width: 140px;
+}
+.hexagons-container .hexa-main .hexa-border-main {
+  z-index: 0;
+  height: 260px;
+  width: 280px;
 }
 @media (min-width: 768px) {
 

@@ -1,0 +1,135 @@
+.hexa-title {
+    margin-top: 1em;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.hexagon-big-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .hexa-first-container {
+        transform: translateY(14%);
+    }
+
+    .hexa-second-container {
+        transform: translateX(-25%);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hexagon-big-container {
+        flex-wrap: wrap;
+
+        .hexa-second-container {
+            transform: translateY(20%);
+        }
+
+        @media screen and (max-width: 640px) {
+            .hexa-first-container {
+                transform: scale(0.6);
+            }
+
+            .hexa-second-container {
+                transform: scale(0.6) translateY(-50%);
+            }
+        }
+    }
+}
+
+
+.hexagons-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .hexa-middle {
+        transform: translate(37%, -25%);
+    }
+
+    .hexa-last {
+        transform: translate(-0.8%, -10%);
+    }
+
+    .hexa-main {
+        position: relative;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+        .hexagon-border {
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+            //z-index: -1;
+            background-color: #8AEA92;
+            position: relative;
+            text-align: center;
+            width: auto;
+
+            .hexagon {
+                clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+                position: absolute;
+                right: 50%;
+                top: 50%;
+                transform: translate(50%, -50%);
+                width: 95%;
+                height: 95%;
+            }
+
+            .hexa-text {
+                background-color: black;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    font-weight: bold;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+
+            .hexa-two-lines-text {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        .hexa-border-name {
+            z-index: 1;
+            transform: translate(-32%, 30%);
+
+            .hexa-text {
+                p {
+                    font-size: 1.5em;
+                }
+            }
+        }
+
+        .hexa-border-filiere {
+            transform: translate(-295%, 160%);
+
+            .hexa-text {
+                p {
+                    margin: 0;
+                    font-size: 1em;
+                }
+            }
+
+        }
+
+        .hexa-border-child {
+            height: 120px;
+            width: 140px;
+        }
+
+        .hexa-border-main {
+            z-index: 0;
+            height: 260px;
+            width: 280px;
+        }
+    }
+
+}
