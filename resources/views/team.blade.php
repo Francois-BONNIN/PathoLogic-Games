@@ -2,7 +2,21 @@
 
 @section('content')
     <div>
-        <h1>Notre équipe</h1>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <h1 class="hexa-title">L'équipe</h1>
+
+        <div class="hexagon-big-container">
+            <div class="hexagons-container hexa-first-container">
+                @include('components.team-members.alexis')
+                @include('components.team-members.sylvain')
+                @include('components.team-members.ambre')
+            </div>
+
+            <div class="hexagons-container hexa-second-container">
+                @include('components.team-members.francois')
+                @include('components.team-members.alfie')
+                @include('components.team-members.marvin')
+            </div>
+        </div>
+
     </div>
 @endsection
