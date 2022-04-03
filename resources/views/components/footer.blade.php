@@ -1,30 +1,28 @@
-<footer class="footer p-10 text-base-content">
+<footer class="footer p-10 text-base-content justify-between justify-items-center">
     <div>
-        <p>ACME Industries Ltd.<br>Providing reliable tech since 1992</p>
+        <span>Pathologic Games</span>
+        <p>Studio</p>
+        <p>2 place de l'europe<br>31000 Toulouse</p>
     </div>
     <div>
-        <span class="footer-title">Services</span>
-        <a class="link link-hover">Branding</a>
-        <a class="link link-hover">Design</a>
-        <a class="link link-hover">Marketing</a>
-        <a class="link link-hover">Advertisement</a>
+        <span class="footer-title">Plan du site</span>
+        <a class="link link-hover">Accueil</a>
+        <a class="link link-hover">Jeux</a>
+        <a class="link link-hover">A propos</a>
+        <a class="link link-hover">Contact</a>
     </div>
     <div>
-        <span class="footer-title">Legal</span>
-        <a class="link link-hover">Terms of use</a>
-        <a class="link link-hover">Privacy policy</a>
-        <a class="link link-hover">Cookie policy</a>
-    </div>
-    <div>
-        <span class="footer-title">Newsletter</span>
+        <span class="footer-title">Adhérez à notre <br> Newsletter</span>
         <div class="form-control w-80">
-            <label class="label">
-                <span class="label-text">Enter your email address</span>
-            </label>
             <div class="relative">
-                <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16">
+                <input type="text" placeholder="e-mail" class="input input-bordered w-full pr-16">
                 <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
             </div>
         </div>
+        <div>
+            <p>Copyright <?php echo date("Y"); ?></p>
+            <p></p>
+        </div>
+    </div>
 
 </footer>

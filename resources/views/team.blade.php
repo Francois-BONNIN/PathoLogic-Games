@@ -2,7 +2,7 @@
 
 @section('content')
     <div>
-        <h1 class="hexa-title">L'équipe</h1>
+        <h1 class="my-12">L'équipe</h1>
 
         <div class="hexagon-big-container">
             <div class="hexagons-container hexa-first-container">

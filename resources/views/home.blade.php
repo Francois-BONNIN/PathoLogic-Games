@@ -3,7 +3,7 @@
 @section('content')
     <div class="hero flex flex-col lg:flex-row">
         <div class="heroText flex flex-col">
-            <h1>Bienvenue au studio</h1>
+            <h1 class="font-bold">Bienvenue au studio</h1>
             <p>Pathologic Games est un studio de développement indépendant créé en 2021 et basé à Toulouse, en France.
                 Le studio regroupe une dizaine de personnes dont des artistes, des créatifs et des développeurs. Notre ambition est de proposer du divertissement vidéoludique mélangeant scénario atypique et gameplay original.
             </p>
