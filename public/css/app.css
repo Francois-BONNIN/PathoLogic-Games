@@ -1272,9 +1272,9 @@ html {
 .right-0 {
   right: 0px;
 }
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -1288,13 +1288,6 @@ html {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-.mt-6 {
-  margin-top: 1.5rem;
-}
 .flex {
   display: flex;
 }
@@ -1303,9 +1296,6 @@ html {
 }
 .h-auto {
   height: auto;
-}
-.h-6 {
-  height: 1.5rem;
 }
 .h-\[10vh\] {
   height: 10vh;
@@ -1343,9 +1333,6 @@ html {
 .rounded-lg {
   border-radius: 2rem;
 }
-.rounded-full {
-  border-radius: 9999px;
-}
 .rounded-none {
   border-radius: 0;
 }
@@ -1366,9 +1353,6 @@ html {
 }
 .bg-cover {
   background-size: cover;
-}
-.fill-current {
-  fill: currentColor;
 }
 .p-4 {
   padding: 1rem;
@@ -1401,9 +1385,6 @@ html {
 }
 .pb-8 {
   padding-bottom: 2rem;
-}
-.pb-16 {
-  padding-bottom: 4rem;
 }
 .pr-16 {
   padding-right: 4rem;
@@ -1439,10 +1420,6 @@ html {
 .text-night-blue {
   --tw-text-opacity: 1;
   color: rgb(7 7 25 / var(--tw-text-opacity));
-}
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .text-base-content {
   --tw-text-opacity: 1;
@@ -1564,18 +1541,14 @@ nav .menu a {
   transition-duration: 700ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.heroMenu .hero-items-Menu .hero-items h3 {
-  transition-duration: 700ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 .heroMenu .hero-items-Menu .hero-items img {
   margin-top: 2rem;
   margin-bottom: 2rem;
   height: 8rem;
 }
 .heroMenu .hero-items-Menu .hero-items h3 {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   text-transform: uppercase;
 }
 .heroMenu .hero-items-Menu .hero-items p, .heroMenu .hero-items-Menu .hero-items a {
@@ -1617,7 +1590,7 @@ nav .menu a {
     justify-content: center;
   }
   .hero .hero-items-Menu .hero-items {
-    padding: 0px;
+    padding: 1rem;
   }
   .hero .hero-items-Menu .hero-items img {
     margin-top: 0px;
@@ -1626,12 +1599,11 @@ nav .menu a {
   .hero .hero-items-Menu .hero-items img {
     width: 50%;
   }
+  .hero .hero-items-Menu .hero-items:hover img {
+    width: 33.333333%;
+  }
   .hero .hero-items-Menu .hero-items:hover a, .hero .hero-items-Menu .hero-items:hover p {
     display: inline-flex;
-  }
-  .hero .hero-items-Menu .hero-items:hover p {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
   .hero .hero-items-Menu .hero-items:hover p {
     text-align: center;
@@ -1804,10 +1776,6 @@ nav .menu a {
     width: 60%;
   }
 
-  .lg\:w-full {
-    width: 100%;
-  }
-
   .lg\:w-2\/5 {
     width: 40%;
   }
@@ -1836,10 +1804,6 @@ nav .menu a {
 
   .lg\:pt-0 {
     padding-top: 0px;
-  }
-
-  .lg\:pb-0 {
-    padding-bottom: 0px;
   }
 
   .lg\:text-left {

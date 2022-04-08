@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('title', 'Accueil')
+
 @section('content')
     <div class="hero flex flex-col lg:flex-row">
         <div class="heroText flex flex-col">

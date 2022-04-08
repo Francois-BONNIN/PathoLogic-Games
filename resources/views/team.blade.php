@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('title', "L'Equipe")
+
 @section('content')
     <div>
         <h1 class="my-12">L'équipe</h1>

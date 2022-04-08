@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('title', 'Notre studio')
+
 @section('content')
     <div>
         <h1>A propos de PathoLogic Games</h1>

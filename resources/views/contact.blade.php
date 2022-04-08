@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('title', 'Nous contacter')
+
 @section('content')
     <div>
         <h1>Nous contacter</h1>
