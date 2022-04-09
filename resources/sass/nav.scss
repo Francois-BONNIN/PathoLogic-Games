@@ -1,6 +1,6 @@
-nav{
+.navbar{
     @apply items-center justify-between;
-    > img{
+    img{
          @apply h-5/6;
     }
     .menu a {

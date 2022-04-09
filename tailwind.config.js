@@ -11,6 +11,7 @@ module.exports = {
             'night-blue': '#070719',
             'red': '#FF8484',
             'green': '#8AEA92',
+            'blue-violet': '#11113B',
         },
         fontFamily:{
             'montserrat':'Montserrat'
@@ -37,7 +38,7 @@ module.exports = {
                 "accent": "#8AEA92",
                 "neutral": "#11113B",
                 "base-100": "#070719EB",
-                "info": "#3ABFF8",
+                "info": "#CDEDFD",
                 "success": "#8AEA92",
                 "warning": "#fde047",
                 "error": "#FF8484",

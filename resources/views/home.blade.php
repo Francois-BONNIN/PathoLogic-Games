@@ -3,6 +3,7 @@
 @section('title', 'Accueil')
 
 @section('content')
+    <!-- Hero -->
     <div class="hero flex flex-col lg:flex-row">
         <div class="heroText flex flex-col">
             <h1 class="font-bold">Bienvenue au studio</h1>
@@ -40,5 +41,15 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="h-[70vh] flex flex-col justify-evenly rounded-md">
+        <div class="mt-8 flex flex-col items-center gap-4">
+            <h2 class="text-5xl">Contact</h2>
+            <p class="text-center w-2/3 text-2xl">Prenez rendez-vous avec notre équipe, et nous vous contacterons afin de traiter votre demande.</p>
+        </div>
+
+        @include('components.contact-form')
     </div>
 @endsection

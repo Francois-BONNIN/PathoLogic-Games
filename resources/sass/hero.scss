@@ -1,5 +1,5 @@
 .hero{
-    @apply gap-16 items-center h-full
+    @apply gap-6 items-center h-full
 }
 
 .heroText{
@@ -50,14 +50,29 @@
 /*Tablette*/
 @media (min-width: 43rem) {
     .hero {
+        @apply gap-12;
 
         .hero-items-Menu {
             @apply m-0
             w-full h-4/6;
 
-            &:hover{
-                @apply h-5/6;
+            .hero-items {
+                @apply h-full flex-col justify-center p-4;
             }
+        }
+    }
+}
+
+/*Desktop*/
+@media (min-width: 62rem){
+    .hero{
+        @apply h-[90vh] gap-16
+    }
+
+    .heroMenu{
+
+        .hero-items-Menu{
+            &:hover { @apply h-[95%];}
 
             .hero-items{
                 @apply h-full flex-col justify-center p-4;
@@ -75,7 +90,7 @@
                     }
 
                     p{
-                        @apply text-center
+                        @apply text-center text-sm;
                     }
 
                     .filterShadow{
@@ -83,14 +98,6 @@
                     }
                 }
             }
-
         }
-    }
-}
-
-/*Desktop*/
-@media (min-width: 62rem){
-    .hero{
-        @apply h-[90vh]
     }
 }
