@@ -3,7 +3,7 @@
 @section('title', "L'Equipe")
 
 @section('content')
-    <div class="container mx-auto">
+    <div class="container mx-auto pt-[10vh]">
         <h1 class="my-12">L'équipe</h1>
 
         <div class="hexagon-big-container">
@@ -22,7 +22,7 @@
     </div>
 
     <!-- Contact -->
-    <div class="h-[70vh] flex flex-col justify-evenly rounded-md">
+    <div class="lg:h-[70vh] flex flex-col justify-evenly rounded-md sm:my-16">
         <div class="mt-8 flex flex-col items-center gap-4">
             <h2 class="text-5xl">Contact</h2>
             <p class="text-center w-2/3 text-xl">Prenez rendez-vous avec notre équipe, et nous vous contacterons afin de traiter votre demande.</p>

@@ -66,13 +66,13 @@
 /*Desktop*/
 @media (min-width: 62rem){
     .hero{
-        @apply h-[90vh] gap-16
+        @apply h-screen gap-16
     }
 
     .heroMenu{
 
         .hero-items-Menu{
-            &:hover { @apply h-[95%];}
+            &:hover { @apply h-[75%];}
 
             .hero-items{
                 @apply h-full flex-col justify-center p-4;

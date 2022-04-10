@@ -5,6 +5,10 @@
     }
     .menu a {
         @apply rounded-none uppercase;
+
+        &:hover{
+            @apply bg-red bg-opacity-10
+        }
     }
 }
 

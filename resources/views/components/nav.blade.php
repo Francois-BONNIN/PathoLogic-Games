@@ -1,6 +1,6 @@
-<div class="navbar container mx-auto h-[10vh]">
+<div class="absolute top-0 left-0 right-0 navbar  h-[10vh] container mx-auto p-0">
     <div class="navbar-start">
-        <a class="btn p-0 bg-transparent hover:bg-transparent hover:scale-[1.05]" href="{{ route('home') }}">
+        <a class="btn p-0 bg-transparent border-none hover:bg-transparent hover:scale-[1.05]" href="{{ route('home') }}">
             <img src="{{ asset('img/Logo_pathologic.svg') }}" alt="Logo pathologic-games">
         </a>
     </div>
@@ -20,8 +20,8 @@
             </ul>
         </div>
     </div>
-    <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
+    <div class="navbar-center hidden lg:flex h-full">
+        <ul class="menu menu-horizontal p-0 h-full">
             <li><a href="{{ route('home') }}" class="{{ Request::routeIs('home') ? 'active' : '' }}">Accueil</a></li>
             <li><a href="{{ route('team') }}" class="{{ Request::routeIs('team') ? 'active' : '' }}">L'équipe</a></li>
             <li><a href="{{ route('mediums-hat') }}" class="{{ Request::routeIs('mediums-hat') ? 'active' : '' }}">Medium's Hat</a></li>

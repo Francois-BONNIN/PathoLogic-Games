@@ -3,7 +3,7 @@
 @section('title', "Medium's Hat")
 
 @section('content')
-    <div class="text-white h-[80vh] w-[90%] lg:w-full flex flex-wrap items-center h-auto mx-auto my-16 container">
+    <div class="text-white h-screen w-[90%] lg:w-full flex flex-wrap items-center h-auto mx-auto pt-[10vh] container">
 
         <div class="w-full lg:w-3/5 rounded-md lg:rounded-l-md lg:rounded-r-none border border-1 border-light-blue lg:border-r-0 shadow-md shadow-light-blue lg:mx-0">
             <div class="flex flex-col px-4 py-4 md:px-12 md:py-12 text-center lg:text-left">
@@ -29,7 +29,7 @@
 
     </div>
     <!-- Contact -->
-    <div class="h-[70vh] flex flex-col justify-evenly rounded-md">
+    <div class="lg:h-[70vh] flex flex-col justify-evenly rounded-md sm:my-16">
         <div class="mt-8 flex flex-col items-center gap-4">
             <h2 class="text-5xl">Contact</h2>
             <p class="text-center w-2/3 text-xl">Prenez rendez-vous avec notre équipe, et nous vous contacterons afin de traiter votre demande.</p>

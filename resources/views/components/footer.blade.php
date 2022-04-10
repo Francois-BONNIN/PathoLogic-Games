@@ -1,4 +1,4 @@
-<footer class="footer container mx-auto p-12 text-base-content justify-between lg:justify-items-center text-white">
+<footer class="footer container mx-auto p-12 text-base-content justify-between lg:justify-items-center text-white opacity-100">
     <div>
         <div>
             <span class="text-red text-3xl font-bold">Pathologic Games</span>
@@ -11,21 +11,21 @@
                 <a href="https://www.instagram.com/pathologicgame/" target="_blank">
                     <img src="{{ asset('img/instagram.svg') }}" alt="">
                 </a>
-                <a href="https://www.instagram/pathologicgame" target="_blank">
+                <a href="https://www.twitter.com/pathologicgame" target="_blank">
                     <img src="{{ asset('img/twitter.svg') }}" alt="">
                 </a>
             </div>
         </div>
     </div>
     <div>
-        <span class="footer-title">Plan du site</span>
+        <span class="footer-title text-white">Plan du site</span>
         <a class="link link-hover">Accueil</a>
         <a class="link link-hover">Jeux</a>
         <a class="link link-hover">A propos</a>
         <a class="link link-hover">Contact</a>
     </div>
     <div>
-        <span class="footer-title">Adhérez à notre <br> Newsletter</span>
+        <span class="footer-title text-white">Adhérez à notre <br> Newsletter</span>
         <div class="form-control w-80">
             <div class="relative">
                 <input type="text" placeholder="e-mail" class="input input-bordered h-[2.3rem] w-full pr-16">
