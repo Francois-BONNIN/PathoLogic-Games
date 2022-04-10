@@ -1,6 +1,6 @@
-<div class="navbar h-[10vh]">
+<div class="navbar container mx-auto h-[10vh]">
     <div class="navbar-start">
-        <a class="btn btn-ghost" href="{{ route('home') }}">
+        <a class="btn p-0 bg-transparent hover:bg-transparent hover:scale-[1.05]" href="{{ route('home') }}">
             <img src="{{ asset('img/Logo_pathologic.svg') }}" alt="Logo pathologic-games">
         </a>
     </div>

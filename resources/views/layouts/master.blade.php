@@ -12,7 +12,7 @@
     <link rel="icon" href="{{ asset('img/Logo Icon.png') }}">
     <title>@yield('title')</title>
 </head>
-<body class="bg-night-blue container mx-auto">
+<body class="bg-night-blue mx-auto">
     @include('components.nav')
 
     @yield('content')

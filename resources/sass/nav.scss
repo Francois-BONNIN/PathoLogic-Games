@@ -4,10 +4,10 @@
          @apply h-5/6;
     }
     .menu a {
-        @apply rounded-sm uppercase;
+        @apply rounded-none uppercase;
     }
 }
 
 .active{
-    @apply border-b-4 border-b-red text-white font-bold
+    @apply bg-red bg-opacity-10 border-b-2 border-b-red text-white font-bold
 }

@@ -3,7 +3,7 @@
 @section('title', "L'Equipe")
 
 @section('content')
-    <div>
+    <div class="container mx-auto">
         <h1 class="my-12">L'équipe</h1>
 
         <div class="hexagon-big-container">

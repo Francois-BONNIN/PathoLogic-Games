@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- Hero -->
-    <div class="hero flex flex-col lg:flex-row">
+    <div class="container mx-auto hero flex flex-col lg:flex-row">
         <div class="heroText flex flex-col">
             <h1 class="font-bold">Bienvenue au studio</h1>
             <p>Pathologic Games est un studio de développement indépendant créé en 2021 et basé à Toulouse, en France.
@@ -47,9 +47,12 @@
     <div class="h-[70vh] flex flex-col justify-evenly rounded-md">
         <div class="mt-8 flex flex-col items-center gap-4">
             <h2 class="text-5xl">Contact</h2>
-            <p class="text-center w-2/3 text-2xl">Prenez rendez-vous avec notre équipe, et nous vous contacterons afin de traiter votre demande.</p>
+            <p class="text-center w-2/3 text-xl">Prenez rendez-vous avec notre équipe, et nous vous contacterons afin de traiter votre demande.</p>
         </div>
 
         @include('components.contact-form')
     </div>
+
+    <!-- Map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.814281215378!2d1.4292946511316222!3d43.610408379020406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebb428a42b9a9%3A0xb4032b573c53338!2sPlace%20de%20l&#39;Europe%2C%2031000%20Toulouse!5e0!3m2!1sfr!2sfr!4v1649548006848!5m2!1sfr!2sfr" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 @endsection

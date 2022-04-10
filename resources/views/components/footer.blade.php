@@ -1,4 +1,4 @@
-<footer class="footer p-10 text-base-content justify-between lg:justify-items-center text-white">
+<footer class="footer container mx-auto p-12 text-base-content justify-between lg:justify-items-center text-white">
     <div>
         <div>
             <span class="text-red text-3xl font-bold">Pathologic Games</span>

@@ -13,12 +13,12 @@
             <label for="floating_email" class="floatingLabel">Email</label>
         </div>
     </div>
-    <div class="relative z-0 mb-16">
+    <div class="relative z-0 mb-12">
         <textarea rows="2" type="text" name="floating_message" id="floating_message" class="floatingInput peer" placeholder=" " required></textarea>
         <label for="floating_message" class="floatingLabel">Message</label>
     </div>
 
-    <button type="submit" class="btn btn-wide btn-accent self-center text-xl font-bold">
+    <button type="submit" class="btn btn-wide btn-primary self-center text-xl font-bold">
         Envoyer
     </button>
 </section>
