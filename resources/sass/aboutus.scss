@@ -1,0 +1,45 @@
+.aboutus {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+
+    .aPropos {
+        grid-area: 1 / 1 / 3 / 5;
+    }
+
+    .deNous { grid-area: 3 / 4 / 9 / 5; }
+
+    .mainPerso {
+        grid-area: 3 / 1 / 13 / 5;
+    }
+    .paragraph {
+        grid-area: 1 / 5 / 7 / 13;
+        @apply lg:w-3/4 w-10/12;
+    }
+
+    .aboutus-stats {
+        grid-area: 7 / 5 / 13 / 13;
+        @apply flex flex-col md:flex-row justify-around items-center md:items-start
+        pt-4 gap-3.5 lg:gap-0;
+
+        .about-stat{
+            @apply flex flex-col items-center;
+
+            .title{
+                @apply text-4xl uppercase text-center font-bold;
+            }
+
+            .value{
+                text-shadow: 0px 0px 11px #FF8484;
+                @apply text-red font-black text-[5rem];
+            }
+
+            .text{
+                @apply uppercase font-bold text-center;
+            }
+        }
+
+    }
+}

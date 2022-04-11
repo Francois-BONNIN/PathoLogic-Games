@@ -66,7 +66,6 @@
             <h2 class="text-5xl">Contact</h2>
             <p class="text-center w-2/3 text-xl">Prenez rendez-vous avec notre équipe, et nous vous contacterons afin de traiter votre demande.</p>
         </div>
-
         @include('components.contact-form')
     </div>
 
