@@ -3,7 +3,7 @@
 @section('title', 'Notre studio')
 
 @section('content')
-    <div class="bg-cover bg-center lg:h-[100vh] " style="background-image:url({{ asset('img/Background/bg-apropos.png')}});">
+    <div class="bg-cover bg-center lg:h-screen " style="background-image:url({{ asset('img/Background/bg-apropos.png')}});">
         <div class="bg-night-blue bg-opacity-90 h-full">
             <div class="aboutus container mx-auto pt-[12vh]">
                 <div class="aPropos font-bold">
@@ -14,7 +14,7 @@
                     <p class="text-right text-6xl uppercase rotate-90 translate-x-[4rem] md:-translate-x-4 translate-y-[6rem] whitespace-nowrap font-bold">De nous</p>
                 </div>
                 <div class="relative mainPerso h-full">
-                        <img class="absolute bottom-[50%] right-[20%] h-full w-full object-contain top-0 right-0" src="{{ asset('img/mediumshat/perso_final.png') }}">
+                        <img class="absolute bottom-[50%] right-[20%] h-full w-full object-contain top-0" src="{{ asset('img/mediumshat/perso_final.png') }}">
                 </div>
                 <div class="paragraph self-center pl-2">
                     <p>Pathologic Games est un studio de développement indépendant créé en 2021 et basé à Toulouse, en France. Le studio regroupe une dizaine de personnes dont des développeurs, des artistes et des webdesigners. L’équipe de Pathologic Games est variée, jeune, dynamique et n’a qu’un seul objectif commun : créer des jeux uniques et authentiques afin que les joueurs, amateurs ou chevronnés, puissent découvrir, explorer, s’amuser.</p>
